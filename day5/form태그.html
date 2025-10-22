@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form태그</title>
+</head>
+
+<body>
+    <form name="user" action="/submit_page" method="post">
+        <div>
+            <label for="">이름을 입력하세요 : 
+                <input type="text" autofocus placeholder="홍길동" required id="username">
+            </label>
+        </div>
+        <div>
+            강아지 ->
+            <input type="checkbox" checked>
+
+            고양이 ->
+            <input type="checkbox">
+
+            다람쥐 ->
+            <input type="checkbox">
+        </div>
+        <div>
+            password : <input type="password" minlength="3">
+        </div>
+        <div>
+            number : <input type="number" max="150">
+        </div>
+        <div>
+            email : <input type="email">
+        </div>
+        <div>
+            submit : <input type="submit">
+        </div>
+        <div>
+            tel : <input type="tel">
+        </div>
+        <div>
+            여자
+            <input type="radio" name="gender" value="female">
+            남자
+            <input type="radio" name="gender" value="male">
+        </div>
+        <div>
+            date : <input type="date" disabled>
+        </div>
+        <div>
+            button : <input type="button" value="버튼을 클릭하세요.">
+        </div>
+        <div>
+            <textarea name="개선의견" cols="50" rows="5" placeholder="여러분들의 소중한 의견을 전해주세요."></textarea>
+        </div>
+
+        <div>
+            <button type="reset">초기화</button>
+        </div>
+        <!-- div는 블록이기 때문에 한 줄을 다 차지함
+            input은 inline태그 이기 때문에 콘텐츠만큼의 자리를 차지함-->
+    </form>
+</body>
+
+</html>
