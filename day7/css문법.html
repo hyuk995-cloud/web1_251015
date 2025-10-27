@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css문법</title>
+    <style>
+        /* 선택자(셀렉터) */
+        /* h1 { */
+            /* 속성(프로퍼티) : 속성 값;(벨류)*/
+            /*선언 (데클러레이션);           */
+            /* color:chocolate;
+            font-size: 16px;
+        }
+
+        .dog {
+            color:red;
+        }
+
+        .cat {
+            color:blue;
+        } */
+
+        * {
+            color:darkmagenta;
+            /* 전체 선택자로 모든 태그를 선택하는 선택자 */
+        }
+
+        #id_seletor {
+            /* #은 아이디를 선택한다. */
+        }
+        
+        .class {
+            /* .은 class를 선택한다. */
+        }
+
+        .container > .menu1 > li {
+            list-style: none;
+        }
+        .container li {
+            list-style: none;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>클래스문법실습</h1>
+    <p class="dog">강아지</p>
+    <p class="cat">고양이</p>
+
+    <div class="container">
+        <ul class="menu1">
+            <li>자식</li>
+            <li>자식</li>
+            <li>자식</li>
+        </ul>
+        <ul class="menu2">
+            <li>자식</li>
+            <li>자식</li>
+            <li>자식</li>
+        </ul>
+    </div>
+</body>
+</html>
