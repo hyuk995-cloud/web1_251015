@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        .container {
+            position: relative;
+            width: 500px;
+            border: 1px solid #000;
+            margin-top: 50px;
+            height: 500px;
+        }
+        /* div > div {position: absolute;} */
+        .box {
+            position: absolute;
+            text-align: center;
+            height: 50px;
+            width: 100px;
+            line-height: 50px;
+        }
+
+        .b1 {
+            background: salmon;
+            top: 130px;
+            left: 60px;
+        }
+
+        .b2 {
+            background-color: skyblue;
+            top: 300px;
+            left: 150px;
+
+            /* top:50%;
+            left:50%;
+            transform: translate(-50%, -50%);  */
+        }
+
+        .b3 {
+            background-color: red;
+            top: 50%;
+            right: 60px;
+            transform: translateY(-50%);
+
+            /* bottom: 0;
+            right: 0; */
+        }
+        /* position : relative(기준) - 부모
+        position : absolute - 자식 
+        absolute를 주었다면 위치속성을 넣어주어야함
+        left top bottom right*/
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box b1">왼쪽 위</div>
+        <div class="box b2">중간</div>
+        <div class="box b3">오른쪽 아래</div>
+    </div>
+</body>
+</html>
