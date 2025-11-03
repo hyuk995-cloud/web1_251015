@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>background실습</title>
+    <style>
+        body {
+            height: 5000px;
+        }
+
+        .box_container > div {
+            width: 500px;
+            height: 500px;
+            margin: 50px;
+            text-align: center;
+            line-height: 500px;
+        }
+
+        .box1 {
+            background-color: aqua;
+        }
+
+        .box2 {
+            background-color: #f00;
+        }
+
+        .box3 {
+            background-color: rgba(0, 255, 255, 0.5);
+        }
+
+        .img_box {
+            background-image: url(../day5/강아지1.jpg) ;
+            background-size: 320px;
+            /* background-size: 70%; */
+            /* background-size: contain; */
+            /* background-size: cover; */
+            background-repeat:no-repeat;
+            background-position: bottom left;
+        }
+
+        div.img_box2 {
+            background-image: url(./j1ic4n97g97a7i4cn715.jpg);
+            background-size: cover;
+            background-position: 30%;
+            background-attachment: fixed;
+            height: 500px;
+            width: 100%;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="box_container">
+        <div class="box1">box1</div>
+        <div class="box2">box2</div>
+        <div class="box3">box3</div>
+        <div class="img_box"></div>
+        <div class="img_box2"></div>
+    </div>
+</body>
+
+</html>
