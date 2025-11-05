@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>헤더구조실습</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: aqua;
+            padding: 0 50px;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: 900;
+        }
+
+        .main,
+        .sign_zon
+        {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .main {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main > li > a,
+        .sign_zon >div > a {
+            padding: 16px;
+            text-decoration: none;
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+            <h1 class="logo">
+                LOGO
+            </h1>
+
+            <ul class="main">
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Skill</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+
+            <div class="sign_zon">
+                <div>
+                    <a href="#">로그인</a>
+                </div>
+                <div>
+                    <a href="#">회원 가입</a>
+                </div>
+            </div>
+    </header>
+</body>
+</html>
