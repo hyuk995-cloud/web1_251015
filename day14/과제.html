@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제</title>
+    <style>
+        article {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            
+        }
+
+        div {
+            width: 300px;
+            height: 350px;
+            margin: 10px;
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            border-radius: 20px;
+        }
+
+        .dog {
+            background-image:url(./oardefault.jpg);
+            background-size: cover;
+        }
+
+        .cat {
+            background-image:url(./4280011_1591651283536.jpeg);
+            background-size: cover;
+        }
+
+        .snow {
+            background-image:url(./canva-snow-covered-trees-MAE3v7JmOeA.jpg);
+            background-size: cover;
+        }
+
+        .water {
+            background-image:url(./thumb_d_616F04C5AE351BCE0D36DC62781472E6.jpg);
+            background-size: cover;
+        }
+
+
+        div > p {
+            color:#fff;
+            margin: 10px 0 0 20px;
+            font-size: 30px;
+            font-weight: 500;
+        }
+
+        div > a {
+            text-decoration: none;
+            color:#000;
+            background-color: #fff;
+            /* border: 1px solid #000; */
+            border-radius: 10px;
+            width: 150px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+            font-size: 20px;
+            margin: 10px 0 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <article class="main">
+        <div class="dog">
+            <p>댕댕이</p>
+            <a href="#"><span>둘러보기</span></a>
+        </div>
+        <div class="cat">
+            <p>고양이</p>
+            <a href="#"><span>둘러보기</span></a>
+        </div>
+        <div class="snow">
+            <p>눈</p>
+            <a href="#"><span>둘러보기</span></a>
+        </div>
+        <div class="water">
+            <p>바다</p>
+            <a href="#"><span>둘러보기</span></a>
+        </div>
+    </article>
+</body>
+</html>
