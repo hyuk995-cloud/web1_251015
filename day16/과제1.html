@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>과제1</title>
+    <style>
+        body {
+            background: #000;
+        }
+
+        ul {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+            margin: 50px 0;
+        }
+
+        li {
+            position: relative;
+        }
+
+        p,
+        a {
+            color: #fff;
+        }
+
+        p {
+            font-size: 24px;
+            font-weight: 500;
+        }
+
+        a {
+            text-decoration: none;
+            opacity: 0;
+            position: relative;
+        }
+
+        li:hover a {
+            position: absolute;
+            opacity: 1;
+            transform: translateY(50);
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            <p>HTML</p>
+            <a href="#">1번 메뉴</a>
+            
+        </li>
+        <li>
+            <p>CSS</p>
+            <a href="#">2번 메뉴</a>
+            
+        </li>
+        <li>
+            <p>JAVASCRIPT</p>
+            <a href="#">3번 메뉴</a>
+            
+        </li>
+        <li>
+            <p>UXUI DESIGN</p>
+            <a href="#">4번 메뉴</a>
+            
+        </li>
+        <li>
+            <p>PORTFOLIO</p>
+            <a href="#">5번 메뉴</a>
+            
+        </li>
+    </ul>
+</body>
+</html>
