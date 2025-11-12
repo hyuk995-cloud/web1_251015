@@ -21,6 +21,10 @@
             border-radius: 20px;
         }
 
+        .window{
+            width: 1000px;
+        }
+
         .all {
             display: flex;
             flex-direction: column;
@@ -29,13 +33,23 @@
         .profile {
             width: 36px;
             height: 36px;
-            /* padding: 30px; */
-            box-sizing: border-box;
         }
+        
+        .good,
+        .etc {
+            width: 24px;
+            height: 24px;
+        }
+
+        .no {
+            width: 20px;
+            height: 20px;
+            transform: translateY(2px);
+        }
+
 
         .community {
             display: flex;
-
         }
 
         .community>.window>span {
@@ -46,12 +60,23 @@
             font-weight: 500;
         }
 
+        .good {
+            background: url(./good.png);
+            background-size: cover;
+        }
+
+        .no {
+            background: url(./no.png);
+            background-size: cover;
+        }
         .etc {
             background: url(./etc....png);
             background-size: cover;
-            width: 24px;
-            height: 24px;
-            box-sizing: border-box;
+        }
+
+        .emotion {
+            display: flex;
+            gap: 10px;
         }
     </style>
 </head>
@@ -71,14 +96,14 @@
                 </div>
                 <div class="etc"></div>
             </div>
-            <article>
+            <article class="emotion">
                 <div class="good"></div>
                 <span></span>
                 <div class="no"></div>
                 <div class="profile_1"></div>
                 <a href="#">답글</a>
             </article>
-            <article>
+            <article class="reply">
                 <a href="#">
                     <div class="arrow"></div><span>답글 1개</span>
                 </a>
