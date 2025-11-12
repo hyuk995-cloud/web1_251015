@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>유튜브만들기</title>
+    <script src="https://kit.fontawesome.com/c7368c6058.js" crossorigin="anonymous"></script>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .comment_container {
+            display: flex;
+            width: 1200px;
+            justify-content: space-between;
+            margin: 50px auto;
+        }
+
+        figure > img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+        }
+
+        .basis {
+            width: 90%;
+        }
+
+        h2,
+        .comment_content {
+            font-size: 14px;
+
+        }
+
+        .icon_box,
+        .recomment_box {
+            display: flex;
+            align-items: center;
+            margin: 16px 0;
+            gap: 16px;
+        }
+        .icon_box > figure,
+        .icon_box > figure > img {
+            width: 24px;
+            height: 24px;
+        }
+
+        button {
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        .recomment_box,
+        .recomment_box > button {
+            color: blue
+        }
+
+        .icon_box > p,
+        .recomment_box > p {
+            font-size: 14px;
+            padding: 8px 10px;
+            border-radius: 20px;
+            transition: 0.3s;
+            cursor: pointer;
+        }
+        .icon_box > p:hover,
+        .recomment_box > p:hover {
+            background: rgb(190, 189, 189);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <article class="comment_container">
+        <figure>
+            <img src="../day14/oardefault.jpg" alt="유튜브프로필이미지">
+        </figure>
+
+        <div class="basis">
+            <h2>@hyuk995</h2>
+            <p class="comment_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum provident eos pariatur eligendi dolorem earum magnam, sit excepturi, ex perspiciatis, accusamus sapiente fugiat ipsa itaque blanditiis delectus ut dolor. Unde?
+            </p>
+
+            <div class="icon_box">
+                <!-- 좋아요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 좋아요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                    </button>
+
+                    <span>99</span>
+                </div>
+
+                <!-- 싫어요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 싫어요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-down fa-xl"></i>
+                    </button>
+                </div>
+
+                <figure>
+                    <img src="../day14/oardefault.jpg" alt="유튜브프로필썸네일">
+                </figure>
+
+                <p>답글</p>
+            </div>
+
+            <div class="recomment_box">
+                <button>
+                    <!-- 아래꺽쇄아이콘 들어갈 자리 chevron -->
+                    <i class="fa-solid fa-chevron-down fa-xl"></i>
+                </button>
+                <p>답글 1개</p>
+            </div>
+        </div>
+
+        <div>
+            <button>
+                <!-- 엘립스 버티컬 아이콘 들어갈 자리 ellipsis-->
+                <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+            </button>
+        </div>
+    </article>
+    <article class="comment_container">
+        <figure>
+            <img src="../day14/oardefault.jpg" alt="유튜브프로필이미지">
+        </figure>
+
+        <div class="basis">
+            <h2>@hyuk995</h2>
+            <p class="comment_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum provident eos pariatur eligendi dolorem earum magnam, sit excepturi, ex perspiciatis, accusamus sapiente fugiat ipsa itaque blanditiis delectus ut dolor. Unde?
+            </p>
+
+            <div class="icon_box">
+                <!-- 좋아요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 좋아요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                    </button>
+
+                    <span>99</span>
+                </div>
+
+                <!-- 싫어요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 싫어요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-down fa-xl"></i>
+                    </button>
+                </div>
+
+                <figure>
+                    <img src="../day14/oardefault.jpg" alt="유튜브프로필썸네일">
+                </figure>
+
+                <p>답글</p>
+            </div>
+
+            <div class="recomment_box">
+                <button>
+                    <!-- 아래꺽쇄아이콘 들어갈 자리 chevron -->
+                    <i class="fa-solid fa-chevron-down fa-xl"></i>
+                </button>
+                <p>답글 1개</p>
+            </div>
+        </div>
+
+        <div>
+            <button>
+                <!-- 엘립스 버티컬 아이콘 들어갈 자리 ellipsis-->
+                <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+            </button>
+        </div>
+    </article>
+    <article class="comment_container">
+        <figure>
+            <img src="../day14/oardefault.jpg" alt="유튜브프로필이미지">
+        </figure>
+
+        <div class="basis">
+            <h2>@hyuk995</h2>
+            <p class="comment_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum provident eos pariatur eligendi dolorem earum magnam, sit excepturi, ex perspiciatis, accusamus sapiente fugiat ipsa itaque blanditiis delectus ut dolor. Unde?
+            </p>
+
+            <div class="icon_box">
+                <!-- 좋아요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 좋아요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                    </button>
+
+                    <span>99</span>
+                </div>
+
+                <!-- 싫어요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 싫어요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-down fa-xl"></i>
+                    </button>
+                </div>
+
+                <figure>
+                    <img src="../day14/oardefault.jpg" alt="유튜브프로필썸네일">
+                </figure>
+
+                <p>답글</p>
+            </div>
+
+            <div class="recomment_box">
+                <button>
+                    <!-- 아래꺽쇄아이콘 들어갈 자리 chevron -->
+                    <i class="fa-solid fa-chevron-down fa-xl"></i>
+                </button>
+                <p>답글 1개</p>
+            </div>
+        </div>
+
+        <div>
+            <button>
+                <!-- 엘립스 버티컬 아이콘 들어갈 자리 ellipsis-->
+                <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+            </button>
+        </div>
+    </article>
+    <article class="comment_container">
+        <figure>
+            <img src="../day14/oardefault.jpg" alt="유튜브프로필이미지">
+        </figure>
+
+        <div class="basis">
+            <h2>@hyuk995</h2>
+            <p class="comment_content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum provident eos pariatur eligendi dolorem earum magnam, sit excepturi, ex perspiciatis, accusamus sapiente fugiat ipsa itaque blanditiis delectus ut dolor. Unde?
+            </p>
+
+            <div class="icon_box">
+                <!-- 좋아요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 좋아요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-up fa-xl"></i>
+                    </button>
+
+                    <span>99</span>
+                </div>
+
+                <!-- 싫어요 박스 -->
+                <div>
+                    <button>
+                        <!-- 폰트어썸 싫어요 아이콘 thumbs-->
+                        <i class="fa-solid fa-thumbs-down fa-xl"></i>
+                    </button>
+                </div>
+
+                <figure>
+                    <img src="../day14/oardefault.jpg" alt="유튜브프로필썸네일">
+                </figure>
+
+                <p>답글</p>
+            </div>
+
+            <div class="recomment_box">
+                <button>
+                    <!-- 아래꺽쇄아이콘 들어갈 자리 chevron -->
+                    <i class="fa-solid fa-chevron-down fa-xl"></i>
+                </button>
+                <p>답글 1개</p>
+            </div>
+        </div>
+
+        <div>
+            <button>
+                <!-- 엘립스 버티컬 아이콘 들어갈 자리 ellipsis-->
+                <i class="fa-solid fa-ellipsis-vertical fa-xl"></i>
+            </button>
+        </div>
+    </article>
+</body>
+</html>
